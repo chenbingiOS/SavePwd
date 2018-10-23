@@ -1,18 +1,30 @@
 PODS:
+  - EZSwiftExtensions (2.0)
+  - SnapKit (4.0.0)
   - SQLite.swift (0.11.5):
     - SQLite.swift/standard (= 0.11.5)
   - SQLite.swift/standard (0.11.5)
+  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
+  - EZSwiftExtensions
+  - SnapKit
   - SQLite.swift
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - EZSwiftExtensions
+    - SnapKit
     - SQLite.swift
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  EZSwiftExtensions: f73648a591e529a1dbd83c22b19fd3e57df6fb7d
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: becd57ef074ea345216ffe32140d19fe8fd59fd0
+PODFILE CHECKSUM: d390ae80164fc9055c1b781808c2e5862f27d763
 
 COCOAPODS: 1.5.2
