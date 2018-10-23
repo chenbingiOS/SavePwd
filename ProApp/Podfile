@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'ProApp' do
+    pod 'SQLite.swift'
+end
