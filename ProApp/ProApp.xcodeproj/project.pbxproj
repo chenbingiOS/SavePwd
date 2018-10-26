@@ -10,6 +10,8 @@
 		071A9685217EF54B00F02574 /* CBGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071A9684217EF54B00F02574 /* CBGroupVC.swift */; };
 		071A9687217EF56500F02574 /* CBSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071A9686217EF56500F02574 /* CBSearchVC.swift */; };
 		071A9689217EF56F00F02574 /* CBSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071A9688217EF56F00F02574 /* CBSettingVC.swift */; };
+		078F9FAB21800A6400A5F1E0 /* CBGroupVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F9FAA21800A6400A5F1E0 /* CBGroupVO.swift */; };
+		078F9FAD21800A7000A5F1E0 /* CBSqlite3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F9FAC21800A7000A5F1E0 /* CBSqlite3.swift */; };
 		07BB1635217ECE48000E84C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BB1634217ECE48000E84C1 /* AppDelegate.swift */; };
 		07BB1637217ECE48000E84C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BB1636217ECE48000E84C1 /* ViewController.swift */; };
 		07BB163A217ECE48000E84C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BB1638217ECE48000E84C1 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		071A9684217EF54B00F02574 /* CBGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBGroupVC.swift; sourceTree = "<group>"; };
 		071A9686217EF56500F02574 /* CBSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSearchVC.swift; sourceTree = "<group>"; };
 		071A9688217EF56F00F02574 /* CBSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSettingVC.swift; sourceTree = "<group>"; };
+		078F9FAA21800A6400A5F1E0 /* CBGroupVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBGroupVO.swift; sourceTree = "<group>"; };
+		078F9FAC21800A7000A5F1E0 /* CBSqlite3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSqlite3.swift; sourceTree = "<group>"; };
 		07BB1631217ECE48000E84C1 /* ProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BB1634217ECE48000E84C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07BB1636217ECE48000E84C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 			children = (
 				07BB1634217ECE48000E84C1 /* AppDelegate.swift */,
 				07BB1636217ECE48000E84C1 /* ViewController.swift */,
+				078F9FAC21800A7000A5F1E0 /* CBSqlite3.swift */,
+				078F9FAA21800A6400A5F1E0 /* CBGroupVO.swift */,
 				071A9684217EF54B00F02574 /* CBGroupVC.swift */,
 				071A9686217EF56500F02574 /* CBSearchVC.swift */,
 				071A9688217EF56F00F02574 /* CBSettingVC.swift */,
@@ -216,11 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078F9FAD21800A7000A5F1E0 /* CBSqlite3.swift in Sources */,
 				071A9685217EF54B00F02574 /* CBGroupVC.swift in Sources */,
 				07BB1637217ECE48000E84C1 /* ViewController.swift in Sources */,
 				07BB1635217ECE48000E84C1 /* AppDelegate.swift in Sources */,
 				071A9689217EF56F00F02574 /* CBSettingVC.swift in Sources */,
 				071A9687217EF56500F02574 /* CBSearchVC.swift in Sources */,
+				078F9FAB21800A6400A5F1E0 /* CBGroupVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
